@@ -1,5 +1,5 @@
 body {
-    font-family: "Quicksand";
+    font-family: "Quicksand", sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -9,7 +9,9 @@ ul {
     margin: 0;
     padding: 0;
 }
-
+/* ========
+    HEADER
+   ======== */
 header {
     display: flex;
     justify-content: space-between;
@@ -19,10 +21,10 @@ header {
 
 #page-logo a {
     padding: 10px;
-    font-family: "Abril Fatface";
+    font-family: "Abril Fatface", sans-serif;
     font-size: 50px;
     text-decoration: none;
-    text-shadow: 1px 1px 2px grey;
+    text-shadow: 1px 1px 2px rgb(68, 67, 67);
     color: rgb(44, 199, 116);
 }
 
