@@ -17,6 +17,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 50px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #page-logo a {
@@ -24,8 +27,8 @@ header {
     font-family: "Abril Fatface", sans-serif;
     font-size: 50px;
     text-decoration: none;
-    text-shadow: 1px 1px 2px rgb(68, 67, 67);
-    color: rgb(44, 199, 116);
+    text-shadow: 2px 2px 4px rgb(68, 67, 67);
+    color: rgb(65, 250, 151);
 }
 
 header ul {
@@ -33,4 +36,22 @@ header ul {
 }
 header li {
     margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #152816;
+    font-size: 23px;
+    font-weight: 500;
+    text-shadow: 1px 1px 4px rgba(68, 67, 67, 0.7);
+    padding: 6px 12px;
+    border-radius: 5px;
+
+}
+
+nav a:hover {
+    text-shadow: 1px 1px 3px rgb(41, 44, 41);
+    background-color: rgb(44, 199, 116);
+    color: rgb(255, 255, 255);
+    transition: 0.1s;
 }
