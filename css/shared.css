@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 ul {
     list-style: none;
     margin: 0;
@@ -21,7 +20,6 @@ header {
     width: 100%;
     box-sizing: border-box;
 }
-
 #page-logo a {
     padding: 10px;
     font-family: "Abril Fatface", sans-serif;
@@ -30,14 +28,12 @@ header {
     text-shadow: 2px 2px 4px rgb(68, 67, 67);
     color: rgb(65, 250, 151);
 }
-
 header ul {
     display: flex;
 }
 header li {
     margin-left: 20px;
 }
-
 nav a {
     text-decoration: none;
     color: #152816;
