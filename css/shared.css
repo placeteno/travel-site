@@ -44,10 +44,31 @@ nav a {
     border-radius: 5px;
 
 }
-
 nav a:hover {
     text-shadow: 1px 1px 3px rgb(41, 44, 41);
     background-color: rgb(44, 199, 116);
     color: rgb(255, 255, 255);
     transition: 0.1s;
+}
+
+/* ========
+    FOOTER
+   ======== */
+
+footer {
+    background: linear-gradient(0deg, #152816, #224123);
+    padding: 15px;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+footer li {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+}
+footer img {
+    width: 100%;
+    height: 100%;
 }
